@@ -1,0 +1,148 @@
+.srcbar{
+    display: flex;
+    margin: 10px;
+    margin-top: 40px;
+
+   
+}
+body{
+    background-color:rgb(14, 10, 10);
+    background-image: url(https://github.com/Kalvium-Program/netflix-clone-boilerplate/blob/main/assets/Title-Image.png?raw=true);
+    background-repeat:no-repeat ;
+    margin-top: 10px;
+    
+}
+h2{
+    color: white;
+}
+p{
+    color: rgb(190, 178, 178);
+}
+.srcbar{
+    height: 60px;
+    margin-top: 30px;
+    
+    display: flex;
+}
+input{
+    height: 40px;
+}
+.a{
+    border: 0px solid black;
+    color: rgb(245, 243, 243);
+    background-color:transparent;
+    font-weight:lighter;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 10px ;
+}
+.logo{
+    height: 30px;
+    width: 80px;
+    margin-left: 20px;
+    margin-top:10px;
+}
+.logo2{
+    margin-left: 600px;
+    display: flex;
+   
+    width: 300px;
+}
+i{
+    margin: 20px;
+    color: black;
+    font-size: larger;
+}
+.b{
+    color: white;
+}
+.onimg{
+    margin-top: 280px;
+    margin-left: 60px;
+}
+.N{
+    height: 40px;
+}
+span{
+    font-weight: 50px;
+    color: white;
+    font-weight: bolder;
+    font-size:20px;
+    margin-top: -2px;
+}
+h1{
+    color: white;
+    font-size: 120px;
+    margin-top: -10px;
+}
+.c{
+    width: 80px;
+    margin-top: -10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.d{
+    width: 80px;
+    margin-top: -10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+    color: white;
+    font-weight: bolder;
+   
+}
+.list1{
+    display: flex;
+
+}
+.img1{
+    height: 150px;
+    width: 250px;
+}
+.i1{
+    margin-left: 50px;
+}
+.i2{
+    width: 400px;
+}
+h2{
+    margin-left: 50px;
+}
+.list2{
+    display: flex;
+}
+.img2{
+    height: 180px;
+    width: 250px;
+}
+.R{
+    margin-left: 10px;
+}
+.list3{
+    display: flex;
+}
+.img3{
+    height: 180px;
+    width: 250px;
+}
+.a5{
+    width: 300px;
+}
+.img4{
+    height: 200px;
+    width: 300px;
+}
+.list4{
+    display: flex;
+}
+.a3{
+    width: 400px;
+}
+.final{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.full{
+    background-color: rgba(0, 0, 0, 0.158);
+    margin: -30px;
+}
