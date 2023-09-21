@@ -21,7 +21,6 @@ p{
 .srcbar{
     height: 60px;
     margin-top: 30px;
-    
     display: flex;
 }
 input{
@@ -145,4 +144,53 @@ h2{
 .full{
     background-color: rgba(0, 0, 0, 0.158);
     margin: -30px;
+    width: max-content;
+}
+@media (max-width: 600px){
+    body{
+        background-size: 100% 300px;
+    }
+    .srcbar{
+        justify-content:start;
+        width: 600px;
+    }
+    .onimg{
+        margin-top: -10px;
+    }
+    .N{
+        height: 20px;
+        width: 10px;
+    }
+    h1{
+        font-size: 50px;
+        margin: 10px;
+    }
+   .list1,.list3,.list4{
+    flex-direction: column;
+   }
+   .img1,.img3,.img4{
+    align-items: center;
+    margin:100px;
+    height: 250px;
+    width: 300px;
+   }
+   .list2{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-row-gap: 20px;
+   }
+   input{
+    height: 30px;
+    width: 60px;
+   }
+   .final{
+    flex-direction: column;
+   }
+   .li1,.li2,.li3{
+    margin: 100px;
+   }
+   #arrow{
+    color: white;
+   }
+
 }
